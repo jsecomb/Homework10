@@ -1,12 +1,12 @@
-# Team Profile Generator by Julian Secomb 
+# Homework9 by Julian Secomb 
 
-[![HitCount](http://hits.dwyl.com/{JSecomb}/{Team Profile Generator}.svg)](http://hits.dwyl.com/{JSecomb}/{Team Profile Generator})
-![GitHub top language](https://img.shields.io/github/languages/top/JSecomb/Team Profile Generator?style=flat-square)
-![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/JSecomb/Team Profile Generator?style=flat-square)
+[![HitCount](http://hits.dwyl.com/{JSecomb}/{Homework9}.svg)](http://hits.dwyl.com/{JSecomb}/{Homework9})
+![GitHub top language](https://img.shields.io/github/languages/top/JSecomb/Homework9?style=flat-square)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/JSecomb/Homework9?style=flat-square)
 
 ## Description: 
 
-Blank for now
+Add later
 
 ---
 

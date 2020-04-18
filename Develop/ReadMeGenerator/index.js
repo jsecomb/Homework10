@@ -36,7 +36,7 @@ inquirer
         const queryUrl = `https://api.github.com/users/${response.username}?access_token=${response.accessToken}`;
         axios.get(queryUrl).then((profile) => {
 
-            fs.writeFile("./README.md", generateMarkdown(response, profile), function(err) {
+            fs.writeFile("../README.md", generateMarkdown(response, profile), function(err) {
                 if (err) {
                     return console.log(err)
                 }
