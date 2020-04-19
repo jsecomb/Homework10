@@ -110,7 +110,7 @@ async function additionalEmployees() {
 }
 
 function renderHTML() {
-    fs.writeFile("./team.html", render(employees), (err) => {
+    fs.writeFile("../index.html", render(employees), (err) => {
         if (err) throw err;
         console.log("team profile generated");
     });
