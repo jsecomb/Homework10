@@ -25,7 +25,7 @@ This application uses command line prompts to generate an HTML page for a team o
 
 Instructions for installation:
 
-1. Clone Repository to folder in local machine using link: https://github.com/jsecomb/Homework8.git
+1. Clone Repository to folder in local machine using link: https://github.com/jsecomb/Homework10.git
 2. Open index.js file in Terminal and run "NPM install" command to install dependencies.
 
 ---
