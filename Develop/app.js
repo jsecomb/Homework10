@@ -44,7 +44,7 @@ async function mainPrompt() {
         {
             type: "choice",
             name: "job",
-            message: "Enter employee's role type",
+            message: "Enter employee's role type (Engineer, Manager, or Intern)",
             choices: ["Engineer", "Intern", "Manager"]
         }
     ])
@@ -59,10 +59,13 @@ async function mainPrompt() {
         employees.push(new Intern(answers.name, answers.id, answers.email, internAnswers.school))
         additionalEmployees()
     } 
-    else if (answers.job.toLowerCase() === "manager") {
+    if (answers.job.toLowerCase() === "manager") {
         const managerAnswers = await managerPrompt();
         employees.push(new Manager(answers.name, answers.id, answers.email, managerAnswers.officeNum))
         additionalEmployees()
+    }
+    else {
+        return //user did not input valid response
     }
 }
 
@@ -110,7 +113,7 @@ async function additionalEmployees() {
 }
 
 function renderHTML() {
-    fs.writeFile("../index.html", render(employees), (err) => {
+    fs.writeFile("../team.html", render(employees), (err) => {
         if (err) throw err;
         console.log("team profile generated");
     });

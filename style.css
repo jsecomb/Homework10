@@ -1,0 +1,79 @@
+*{background-color: black;}
+
+.jumbotron{
+    padding: 20px;
+    background-color:black;
+}
+
+pre{
+    color: #39ff14;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 10px;
+    font-weight: 1000;
+}
+
+.card{
+    padding: 5px;
+    margin: 10px;
+    background-color:black;
+    border-color:orange;
+    border-style: solid;
+    box-shadow: 3px 3px 2px purple;
+    border-radius: 5px;
+    border-width: 1px;
+}
+
+.card-header{
+    background-color:black;
+    border-style: none;
+}
+
+.card-body{
+    background-color:black;
+    border-style: none;
+    padding: 0px;
+    margin:0px;
+}
+
+.list-group-item{
+    background-color: black;
+    border-style: none;
+    font-family: 'Courier New', Courier, monospace;
+    color:white;
+}
+
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    color: #39ff14;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    color:purple;
+    text-shadow: 1px 1px 1px #39ff14;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+h3{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color:white
+}
+
+a{
+    color: white
+}
+
