@@ -6,7 +6,7 @@
 
 ## Description: 
 
-This application uses command line prompts to generate an HTML page for a team of employees, displaying different information depending on the employee type (manager, engineer, intern). The app uses utilizes object oriented programming, node, constructors, classes and unit tests among other tools.
+This application uses command line prompts to generate an HTML page for a team of employees, displaying different information depending on the employee type (manager, engineer, intern). Creating this app provided experience in object oriented programming, node.js, constructors, classes and unit tests among other tools.
 
 ---
 
